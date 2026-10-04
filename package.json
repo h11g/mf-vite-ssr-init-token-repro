@@ -1,0 +1,15 @@
+{
+  "name": "mf-vite-ssr-init-token-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "repro": "node build.mjs && node repro.mjs",
+    "cascade": "node build.mjs && node cascade.mjs"
+  },
+  "devDependencies": {
+    "@module-federation/runtime": "2.9.2",
+    "@module-federation/vite": "1.23.1",
+    "vite": "8.3.2"
+  }
+}
